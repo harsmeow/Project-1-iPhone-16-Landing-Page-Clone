@@ -6,6 +6,7 @@ As this is my very first project ever, so it might not be the best clone but I h
 ## Features
 - Gradient background
 - Clean layout inspired by Apple
+- Fully responsive.
 
 ## Demo
 [View Live](https://harsmeow.github.io/Project-1-iPhone-16-Landing-Page-Clone/)
