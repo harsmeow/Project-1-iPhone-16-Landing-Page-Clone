@@ -1,0 +1,3129 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+nav,
+header,
+footer,
+section,
+main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background-image: linear-gradient(rgb(12, 18, 71), rgb(40, 51, 125) 28%, rgb(80, 93, 173) 46%, rgb(125, 142, 209) 60%, rgb(174, 188, 230) 75%, rgb(239, 236, 255) 90%, rgb(255, 255, 255));
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.parent-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.8125rem;
+}
+
+.menu_bar {
+    display: none;
+}
+
+.nav-items {
+    color: white;
+    padding: 0.5rem 1.25rem;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.logo {
+    fill: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.5rem 1.25rem;
+}
+
+.icon {
+    width: 1.125rem;
+    height: 1.125rem;
+    padding: 0.5rem 1.25rem;
+}
+
+.nav-2 {
+    font-size: 0.875rem;
+    color: white;
+    background-color: #2f397a;
+    text-align: center;
+    font-weight: 300;
+    padding: 0.875rem;
+}
+
+.iphone-16 {
+    text-align: center;
+    margin-top: 4.6875rem;
+    color: white;
+    font-size: 1.625rem;
+    font-weight: 550;
+}
+
+.img1 {
+    width: 62%;
+    height: auto;
+    margin: auto;
+    margin-top: -3.75rem;
+    display: block;
+}
+
+.img2 {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-top: -4.6875rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #006fe6;
+    color: white;
+    padding: 0.75rem 0.9375rem;
+    border-radius: 1.875rem;
+    text-decoration: none;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 48%;
+    margin-top: 4.0625rem;
+}
+
+.text {
+    display: block;
+    text-align: center;
+    font-size: 1.0625rem;
+    margin-top: 2.9375rem;
+    color: black;
+    font-weight: 500;
+}
+
+.highlight-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 5.9375rem 5rem 5.9375rem;
+}
+
+.get-the-highlights {
+    font-size: 3.75rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.watch-the-film {
+    font-size: 1.1875rem;
+    color: #0b6dce;
+    display: flex;
+    align-items: center;
+}
+
+.handhold1 {
+    margin: auto;
+    height: auto;
+    width: 89%;
+    display: flex;
+    border-radius: 2.1875rem;
+    margin-bottom: 13.5rem;
+}
+
+.take-a-look-text {
+    display: block;
+    margin-top: 10rem;
+    font-size: 3.75rem;
+    font-weight: 600;
+    padding: 0rem 0rem 5rem;
+    margin-left: 5.03125rem;
+}
+
+.iphones {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.text2 {
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    font-size: 0.8125rem;
+    padding-bottom: 13.5rem;
+}
+
+.section4 {
+    background-color: #f5f4f6;
+}
+
+.apple-intelligence-png {
+    display: block;
+    width: 41%;
+    height: auto;
+    margin: auto;
+    padding-top: 13.5rem;
+}
+
+.text3 {
+    text-align: center;
+    font-size: 5.3125rem;
+    font-weight: 600;
+}
+
+.text4 {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 100;
+    margin-top: 2.1875rem;
+}
+
+.iphone-handhold {
+    width: 57%;
+    height: auto;
+    margin: auto;
+    margin-top: 5rem;
+    display: block;
+}
+
+.pink-img-bg {
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(242, 208, 230));
+}
+
+.pink-section-text1 {
+    font-size: 4.6875rem;
+    font-weight: 600;
+    color: #d464ae;
+    margin-left: 15.625rem;
+    padding-top: 10rem;
+}
+
+.pink-section-text2 {
+    font-size: 4.6875rem;
+    font-weight: 600;
+    margin-left: 15.625rem;
+    line-height: 5.625rem;
+}
+
+.pink-section-para {
+    margin-left: 15.625rem;
+}
+
+.pink-apple-img {
+    margin-top: 10rem;
+    width: 100%;
+    height: auto;
+    transform: translateX(-18.75rem);
+}
+
+.iphone-text {
+    margin-top: 10.625rem;
+    font-size: 3.75rem;
+    font-weight: 600;
+    margin-left: 5.625rem;
+}
+
+.li-top {
+    color: rgb(110, 110, 115);
+    margin-top: 3.4375rem;
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-left: 5.625rem;
+    margin-bottom: 0.9375rem;
+}
+
+.li-middle {
+    line-height: 3.125rem;
+    color: rgb(51, 51, 54);
+    font-size: 1.875rem;
+    font-weight: 600;
+    list-style: none;
+    margin-left: 5.625rem;
+}
+
+.li-bottom {
+    color: rgb(51, 51, 54);
+    margin-top: 1.125rem;
+    list-style: none;
+    font-size: 1.1875rem;
+    font-weight: 500;
+    margin-left: 5.625rem;
+}
+
+.li-top2 {
+    color: rgb(110, 110, 115);
+    margin-top: 3.4375rem;
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-left: 5.625rem;
+    margin-bottom: 0.9375rem;
+}
+
+.li2 {
+    line-height: 2.5rem;
+    color: rgb(51, 51, 54);
+    font-size: 1.25rem;
+    font-weight: 500;
+    list-style: none;
+    margin-left: 5.625rem;
+}
+
+.section6 {
+    display: flex;
+    margin-bottom: 10.625rem;
+}
+
+.li-top3 {
+    color: rgb(110, 110, 115);
+    margin-top: 3.4375rem;
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-left: 5.625rem;
+    margin-bottom: 0.9375rem;
+}
+
+.li3 {
+    line-height: 2.5rem;
+    color: rgb(51, 51, 54);
+    font-size: 1.25rem;
+    font-weight: 500;
+    list-style: none;
+    margin-left: 5.625rem;
+}
+
+.section7 {
+    font-size: 0.875rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    padding-left: 15.625rem;
+    padding-right: 15.625rem;
+    background-color: #f5f4f6;
+}
+
+.li-footer {
+    font-weight: 200;
+    list-style: none;
+    line-height: 1.5625rem;
+}
+
+.ol-footer {
+    font-weight: 200;
+    line-height: 1.5625rem;
+}
+
+.hr1 {
+    margin: 1.875rem 0rem;
+}
+
+.apple-logo-footer {
+    fill: black;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.li-top4 {
+    margin-top: 1.875rem;
+    list-style: none;
+    font-size: 0.8125rem;
+    line-height: 1.6875rem;
+    font-weight: 500;
+}
+
+.li-middle4 {
+    list-style: none;
+    font-size: 0.8125rem;
+    line-height: 1.6875rem;
+    font-weight: 300;
+}
+
+.li-top5 {
+    padding-left: 7.1875rem;
+    margin-top: 1.875rem;
+    list-style: none;
+    font-size: 0.8125rem;
+    line-height: 1.6875rem;
+    font-weight: 500;
+}
+
+.li-middle5 {
+    padding-left: 7.1875rem;
+    list-style: none;
+    font-size: 0.8125rem;
+    line-height: 1.6875rem;
+    font-weight: 300;
+}
+
+.section6-2 {
+    display: flex;
+}
+
+.hr2 {
+    margin: 1.875rem 0rem;
+}
+
+.blue-color-text-in-footer {
+    margin-top: 58.125rem;
+    color: #0b6dce;
+    text-decoration: underline;
+}
+
+.text-before-hr2 {
+    margin-top: 2.8125rem;
+}
+
+.text-before-hr2-black {
+    font-weight: 300;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+    background-color: #f5f4f6;
+    flex-wrap: wrap;
+}
+
+.footer-text-main1,
+.footer-text-main2 {
+    margin: 0;
+}
+
+@media screen and (min-width:320px) and (max-width:426px) {
+    .section1 {
+        background-image: linear-gradient(rgb(12, 18, 71), rgb(40, 51, 125) 28%, rgb(80, 93, 173) 46%, rgb(125, 142, 209) 60%, rgb(174, 188, 230) 75%, rgb(239, 236, 255) 90%, rgb(255, 255, 255));
+        width: 100vw;
+        min-height: 100vh;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 0.6rem;
+    }
+
+    .nav-items {
+        display: none;
+    }
+    
+    .menu_bar {
+        display: block;
+        padding: 1rem 1.25rem;
+        height: auto;
+        width: 1rem;
+    }
+
+    .logo {
+        fill: white;
+        width: 1rem;
+        height: 1rem;
+        padding: 1rem 1.25rem;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .nav-2 {
+        font-size: 0.5rem;
+        color: white;
+        background-color: #2f397a;
+        text-align: center;
+        font-weight: 300;
+        padding: 0.875rem;
+    }
+
+    .iphone-16 {
+        text-align: center;
+        margin-top: 2.5rem;
+        color: white;
+        font-size: 1rem;
+        font-weight: 550;
+    }
+
+    .img1 {
+        width: 62%;
+        height: auto;
+        margin: auto;
+        margin-top: -0.75rem;
+        display: block;
+    }
+
+    .img2 {
+        width: 85%;
+        height: auto;
+        margin: auto;
+        margin-top: -0.5rem;
+        display: block;
+    }
+
+    .button {
+        background-color: #006fe6;
+        color: white;
+        padding: 0.6rem 0.8rem;
+        border-radius: 1.875rem;
+        text-decoration: none;
+        font-size: 0.6rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-left: 45%;
+        margin-top: 4.0625rem;
+    }
+
+    .text {
+        display: block;
+        text-align: center;
+        font-size: 0.6rem;
+        margin-top: 3.2rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    .highlight-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0rem 5.9375rem 3rem 5.9375rem;
+    }
+
+    .get-the-highlights {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin: 0;
+        margin-left: -3rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .watch-the-film {
+        font-size: 0.4rem;
+        color: #0b6dce;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+
+    .handhold1 {
+        margin: auto;
+        height: auto;
+        width: 89%;
+        display: flex;
+        border-radius: 2.1875rem;
+        margin-bottom: 6rem;
+    }
+
+    .take-a-look-text {
+        display: block;
+        margin-top: 6rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+        padding: 0rem 0rem 5rem;
+        margin-left: 3rem;
+    }
+
+    .iphones {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .text2 {
+        display: block;
+        font-weight: 400;
+        text-align: center;
+        font-size: 0.4rem;
+        padding-bottom: 6rem;
+    }
+
+    .section4 {
+        background-color: #f5f4f6;
+    }
+
+    .apple-intelligence-png {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding-top: 6rem;
+    }
+
+    .text3 {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .text4 {
+        text-align: center;
+        font-size: 0.6rem;
+        font-weight: 100;
+        margin-top: 0.4rem;
+    }
+
+    .iphone-handhold {
+        width: 57%;
+        height: auto;
+        margin: auto;
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .pink-img-bg {
+        background: linear-gradient(180deg, rgb(255, 255, 255), rgb(242, 208, 230));
+    }
+
+    .pink-section-text1 {
+        font-size: 1em;
+        font-weight: 600;
+        color: #d464ae;
+        margin-left: 2rem;
+        padding-top: 10rem;
+    }
+
+    .pink-section-text2 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 2rem;
+        line-height: 1.625rem;
+    }
+
+    .pink-section-para {
+        margin-left: 2rem;
+    }
+
+    .pink-apple-img {
+        margin-top: 4rem;
+        width: 100%;
+        height: auto;
+        transform: translateX(-4.75rem);
+    }
+
+    .iphone-text {
+        margin-top: 4.625rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-left: 2rem;
+    }
+
+    .li-top {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-left: 2rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li-middle {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.6rem;
+        font-weight: 600;
+        list-style: none;
+        margin-left: 2rem;
+    }
+
+    .li-bottom {
+        color: rgb(51, 51, 54);
+        margin-top: 1.125rem;
+        list-style: none;
+        font-size: 0.6rem;
+        font-weight: 500;
+        margin-left: 2rem;
+    }
+
+    .li-top2 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-left: 2rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li2 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.6rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 2rem;
+    }
+
+    .section6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 4.625rem;
+    }
+
+    .li-top3 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-left: 2rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li3 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.6rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 2rem;
+    }
+
+    .section7 {
+        font-size: 0.6rem;
+        padding-top: 2.875rem;
+        padding-bottom: 2.875rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #f5f4f6;
+    }
+
+    .li-footer {
+        font-weight: 200;
+        list-style: none;
+        line-height: 1.5625rem;
+    }
+
+    .ol-footer {
+        font-weight: 200;
+        line-height: 1.5625rem;
+    }
+
+    .hr1 {
+        margin: 1.875rem 0rem;
+    }
+
+    .apple-logo-footer {
+        fill: black;
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .hr2 {
+        margin: 1.875rem 0rem;
+    }
+
+    .blue-color-text-in-footer {
+        margin-top: 58.125rem;
+        color: #0b6dce;
+        text-decoration: underline;
+        font-size: 0.6rem;
+    }
+
+    .text-before-hr2 {
+        margin-top: 2.8125rem;
+    }
+
+    .text-before-hr2-black {
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+
+    .footer_span {
+        font-size: 0.6rem;
+    }
+
+    .footer-main {
+        font-size: 0.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 300;
+        background-color: #f5f4f6;
+        flex-wrap: wrap;
+    }
+
+    .footer-text-main1,
+    .footer-text-main2 {
+        margin: 0;
+    }
+
+     .section6-2 {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .li-top4,
+    .li-top5 {
+        display: block;
+        width: 100%;
+        padding: 0.6rem;
+        margin: 0;
+        margin-top: 1.4rem;
+        background-color: #f2f2f2;
+        border-radius: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.246);
+        font-size: 0.6rem; 
+        text-align: left;
+    }
+
+    .li-middle4,
+    .li-middle5 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:702px) {
+    .section1 {
+        background-image: linear-gradient(rgb(12, 18, 71), rgb(40, 51, 125) 28%, rgb(80, 93, 173) 46%, rgb(125, 142, 209) 60%, rgb(174, 188, 230) 75%, rgb(239, 236, 255) 90%, rgb(255, 255, 255));
+        width: 100vw;
+        min-height: 100vh;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 0.6rem;
+    }
+
+    .nav-items {
+        display: none;
+    }
+    
+    .menu_bar {
+        display: block;
+        padding: 1rem 1.25rem;
+        height: auto;
+        width: 1rem;
+    }
+
+    .logo {
+        fill: white;
+        width: 1rem;
+        height: 1rem;
+        padding: 1rem 1.25rem;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .nav-2 {
+        font-size: 0.5rem;
+        color: white;
+        background-color: #2f397a;
+        text-align: center;
+        font-weight: 300;
+        padding: 0.875rem;
+    }
+
+    .iphone-16 {
+        text-align: center;
+        margin-top: 2.5rem;
+        color: white;
+        font-size: 1rem;
+        font-weight: 550;
+    }
+
+    .img1 {
+        width: 62%;
+        height: auto;
+        margin: auto;
+        margin-top: -0.75rem;
+        display: block;
+    }
+
+    .img2 {
+        width: 85%;
+        height: auto;
+        margin: auto;
+        margin-top: -0.5rem;
+        display: block;
+    }
+
+    .button {
+        background-color: #006fe6;
+        color: white;
+        padding: 0.6rem 0.8rem;
+        border-radius: 1.875rem;
+        text-decoration: none;
+        font-size: 0.6rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-left: 46%;
+        margin-top: 4.0625rem;
+    }
+
+    .text {
+        display: block;
+        text-align: center;
+        font-size: 0.6rem;
+        margin-top: 3.2rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    .highlight-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0rem 5.9375rem 3rem 5.9375rem;
+    }
+
+    .get-the-highlights {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .watch-the-film {
+        font-size: 0.4rem;
+        color: #0b6dce;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+
+    .handhold1 {
+        margin: auto;
+        height: auto;
+        width: 89%;
+        display: flex;
+        border-radius: 2.1875rem;
+        margin-bottom: 6rem;
+    }
+
+    .take-a-look-text {
+        display: block;
+        margin-top: 6rem;
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 0rem 0rem 5rem;
+        margin-left: 5.03125rem;
+    }
+
+    .iphones {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .text2 {
+        display: block;
+        font-weight: 400;
+        text-align: center;
+        font-size: 0.4rem;
+        padding-bottom: 6rem;
+    }
+
+    .section4 {
+        background-color: #f5f4f6;
+    }
+
+    .apple-intelligence-png {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding-top: 6rem;
+    }
+
+    .text3 {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .text4 {
+        text-align: center;
+        font-size: 0.6rem;
+        font-weight: 100;
+        margin-top: 0.4rem;
+    }
+
+    .iphone-handhold {
+        width: 57%;
+        height: auto;
+        margin: auto;
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .pink-img-bg {
+        background: linear-gradient(180deg, rgb(255, 255, 255), rgb(242, 208, 230));
+    }
+
+    .pink-section-text1 {
+        font-size: 1em;
+        font-weight: 600;
+        color: #d464ae;
+        margin-left: 5.625rem;
+        padding-top: 10rem;
+    }
+
+    .pink-section-text2 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 5.625rem;
+        line-height: 1.625rem;
+    }
+
+    .pink-section-para {
+        margin-left: 5.625rem;
+    }
+
+    .pink-apple-img {
+        margin-top: 4rem;
+        width: 100%;
+        height: auto;
+        transform: translateX(-5.75rem);
+    }
+
+    .iphone-text {
+        margin-top: 4.625rem;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 2rem;
+    }
+
+    .li-top {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 2rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li-middle {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.8rem;
+        font-weight: 600;
+        list-style: none;
+        margin-left: 2rem;
+    }
+
+    .li-bottom {
+        color: rgb(51, 51, 54);
+        margin-top: 1.125rem;
+        list-style: none;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-left: 2rem;
+    }
+
+    .li-top2 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 2rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li2 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.8rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 2rem;
+    }
+
+    .section6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 4.625rem;
+    }
+
+    .li-top3 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 2rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li3 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.8rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 2rem;
+    }
+
+    .section7 {
+        font-size: 0.6rem;
+        padding-top: 2.875rem;
+        padding-bottom: 2.875rem;
+        padding-left: 2.625rem;
+        padding-right: 2.625rem;
+        background-color: #f5f4f6;
+    }
+
+    .li-footer {
+        font-weight: 200;
+        list-style: none;
+        line-height: 1.5625rem;
+    }
+
+    .ol-footer {
+        font-weight: 200;
+        line-height: 1.5625rem;
+    }
+
+    .hr1 {
+        margin: 1.875rem 0rem;
+    }
+
+    .apple-logo-footer {
+        fill: black;
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .hr2 {
+        margin: 1.875rem 0rem;
+    }
+
+    .blue-color-text-in-footer {
+        margin-top: 58.125rem;
+        color: #0b6dce;
+        text-decoration: underline;
+        font-size: 0.6rem;
+    }
+
+    .text-before-hr2 {
+        margin-top: 2.8125rem;
+    }
+
+    .text-before-hr2-black {
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+
+    .footer_span {
+        font-size: 0.8rem;
+    }
+
+    .footer-main {
+        font-size: 0.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 300;
+        background-color: #f5f4f6;
+        flex-wrap: wrap;
+    }
+
+    .footer-text-main1,
+    .footer-text-main2 {
+        margin: 0;
+    }
+
+     .section6-2 {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .li-top4,
+    .li-top5 {
+        display: block;
+        width: 100%;
+        padding: 0.6rem;
+        margin: 0;
+        margin-top: 1.4rem;
+        background-color: #f2f2f2;
+        border-radius: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.246);
+        font-size: 0.6rem; 
+        text-align: left;
+    }
+
+    .li-middle4,
+    .li-middle5 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:702px) and (max-width:769px) {
+    .section1 {
+        background-image: linear-gradient(rgb(12, 18, 71), rgb(40, 51, 125) 28%, rgb(80, 93, 173) 46%, rgb(125, 142, 209) 60%, rgb(174, 188, 230) 75%, rgb(239, 236, 255) 90%, rgb(255, 255, 255));
+        width: 100vw;
+        min-height: 100vh;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        font-size: 0.6rem;
+    }
+
+    .nav-items {
+        color: white;
+        padding: 1rem 0;
+        text-decoration: none;
+        font-weight: 100;
+    }
+
+    .logo {
+        fill: white;
+        width: 1rem;
+        height: 1rem;
+        padding: 1rem 1.25rem;
+    }
+
+    .icon {
+        width: 0.8rem;
+        height: 0.8rem;
+        padding: 0.5rem 1.25rem;
+    }
+
+    .nav-2 {
+        font-size: 0.6rem;
+        color: white;
+        background-color: #2f397a;
+        text-align: center;
+        font-weight: 300;
+        padding: 0.875rem;
+    }
+
+    .iphone-16 {
+        text-align: center;
+        margin-top: 3.6875rem;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 550;
+    }
+
+    .img1 {
+        width: 62%;
+        height: auto;
+        margin: auto;
+        margin-top: -1.75rem;
+        display: block;
+    }
+
+    .img2 {
+        width: 85%;
+        height: auto;
+        margin: auto;
+        margin-top: -2rem;
+        display: block;
+    }
+
+    .button {
+        background-color: #006fe6;
+        color: white;
+        padding: 0.6rem 0.8rem;
+        border-radius: 1.875rem;
+        text-decoration: none;
+        font-size: 0.6rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-left: 48%;
+        margin-top: 4.0625rem;
+    }
+
+    .text {
+        display: block;
+        text-align: center;
+        font-size: 0.6rem;
+        margin-top: 3.2rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    .highlight-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10rem 5.9375rem 3rem 5.9375rem;
+    }
+
+    .get-the-highlights {
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .watch-the-film {
+        font-size: 0.8rem;
+        color: #0b6dce;
+        display: flex;
+        align-items: center;
+    }
+
+    .handhold1 {
+        margin: auto;
+        height: auto;
+        width: 89%;
+        display: flex;
+        border-radius: 2.1875rem;
+        margin-bottom: 6rem;
+    }
+
+    .take-a-look-text {
+        display: block;
+        margin-top: 10rem;
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 0rem 0rem 5rem;
+        margin-left: 5.03125rem;
+    }
+
+    .iphones {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .text2 {
+        display: block;
+        font-weight: 400;
+        text-align: center;
+        font-size: 0.6rem;
+        padding-bottom: 6rem;
+    }
+
+    .section4 {
+        background-color: #f5f4f6;
+    }
+
+    .apple-intelligence-png {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding-top: 6rem;
+    }
+
+    .text3 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .text4 {
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 100;
+        margin-top: 1.1875rem;
+    }
+
+    .iphone-handhold {
+        width: 57%;
+        height: auto;
+        margin: auto;
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .pink-img-bg {
+        background: linear-gradient(180deg, rgb(255, 255, 255), rgb(242, 208, 230));
+    }
+
+    .pink-section-text1 {
+        font-size: 2.4em;
+        font-weight: 600;
+        color: #d464ae;
+        margin-left: 5.625rem;
+        padding-top: 10rem;
+    }
+
+    .pink-section-text2 {
+        font-size: 2.4rem;
+        font-weight: 600;
+        margin-left: 5.625rem;
+        line-height: 3.625rem;
+    }
+
+    .pink-section-para {
+        margin-left: 5.625rem;
+    }
+
+    .pink-apple-img {
+        margin-top: 8rem;
+        width: 100%;
+        height: auto;
+        transform: translateX(-10.75rem);
+    }
+
+    .iphone-text {
+        margin-top: 8.625rem;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 2.625rem;
+    }
+
+    .li-top {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 2.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li-middle {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.8rem;
+        font-weight: 600;
+        list-style: none;
+        margin-left: 2.625rem;
+    }
+
+    .li-bottom {
+        color: rgb(51, 51, 54);
+        margin-top: 1.125rem;
+        list-style: none;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-left: 2.625rem;
+    }
+
+    .li-top2 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li2 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.8rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .section6 {
+        display: flex;
+        margin-bottom: 10.625rem;
+    }
+
+    .li-top3 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li3 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.8rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .section7 {
+        font-size: 0.6rem;
+        padding-top: 2.875rem;
+        padding-bottom: 2.875rem;
+        padding-left: 2.625rem;
+        padding-right: 2.625rem;
+        background-color: #f5f4f6;
+    }
+
+    .li-footer {
+        font-weight: 200;
+        list-style: none;
+        line-height: 1.5625rem;
+    }
+
+    .ol-footer {
+        font-weight: 200;
+        line-height: 1.5625rem;
+    }
+
+    .hr1 {
+        margin: 1.875rem 0rem;
+    }
+
+    .apple-logo-footer {
+        fill: black;
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .hr2 {
+        margin: 1.875rem 0rem;
+    }
+
+    .blue-color-text-in-footer {
+        margin-top: 58.125rem;
+        color: #0b6dce;
+        text-decoration: underline;
+        font-size: 0.6rem;
+    }
+
+    .text-before-hr2 {
+        margin-top: 2.8125rem;
+    }
+
+    .text-before-hr2-black {
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+
+    .footer_span {
+        font-size: 0.8rem;
+    }
+
+    .footer-main {
+        font-size: 0.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 300;
+        background-color: #f5f4f6;
+        flex-wrap: wrap;
+    }
+
+    .footer-text-main1,
+    .footer-text-main2 {
+        margin: 0;
+    }
+
+     .section6-2 {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .li-top4,
+    .li-top5 {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+        margin-top: 2rem;
+        background-color: #f2f2f2;
+        border-radius: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.246);
+        font-size: 0.8rem; 
+        text-align: left;
+    }
+
+    .li-middle4,
+    .li-middle5 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1019px) {
+    .section1 {
+        background-image: linear-gradient(rgb(12, 18, 71), rgb(40, 51, 125) 28%, rgb(80, 93, 173) 46%, rgb(125, 142, 209) 60%, rgb(174, 188, 230) 75%, rgb(239, 236, 255) 90%, rgb(255, 255, 255));
+        width: 100vw;
+        min-height: 100vh;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        font-size: 0.6rem;
+    }
+
+    .nav-items {
+        color: white;
+        padding: 1rem 0;
+        text-decoration: none;
+        font-weight: 100;
+    }
+
+    .logo {
+        fill: white;
+        width: 1rem;
+        height: 1rem;
+        padding: 1rem 1.25rem;
+    }
+
+    .icon {
+        width: 0.8rem;
+        height: 0.8rem;
+        padding: 0.5rem 1.25rem;
+    }
+
+    .nav-2 {
+        font-size: 0.6rem;
+        color: white;
+        background-color: #2f397a;
+        text-align: center;
+        font-weight: 300;
+        padding: 0.875rem;
+    }
+
+    .iphone-16 {
+        text-align: center;
+        margin-top: 3.6875rem;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 550;
+    }
+
+    .img1 {
+        width: 62%;
+        height: auto;
+        margin: auto;
+        margin-top: -1.75rem;
+        display: block;
+    }
+
+    .img2 {
+        width: 85%;
+        height: auto;
+        margin: auto;
+        margin-top: -2rem;
+        display: block;
+    }
+
+    .button {
+        background-color: #006fe6;
+        color: white;
+        padding: 0.6rem 0.8rem;
+        border-radius: 1.875rem;
+        text-decoration: none;
+        font-size: 0.6rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-left: 48%;
+        margin-top: 4.0625rem;
+    }
+
+    .text {
+        display: block;
+        text-align: center;
+        font-size: 0.6rem;
+        margin-top: 3.2rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    .highlight-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10rem 5.9375rem 3rem 5.9375rem;
+    }
+
+    .get-the-highlights {
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .watch-the-film {
+        font-size: 0.8rem;
+        color: #0b6dce;
+        display: flex;
+        align-items: center;
+    }
+
+    .handhold1 {
+        margin: auto;
+        height: auto;
+        width: 89%;
+        display: flex;
+        border-radius: 2.1875rem;
+        margin-bottom: 6rem;
+    }
+
+    .take-a-look-text {
+        display: block;
+        margin-top: 10rem;
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 0rem 0rem 5rem;
+        margin-left: 5.03125rem;
+    }
+
+    .iphones {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .text2 {
+        display: block;
+        font-weight: 400;
+        text-align: center;
+        font-size: 0.6rem;
+        padding-bottom: 6rem;
+    }
+
+    .section4 {
+        background-color: #f5f4f6;
+    }
+
+    .apple-intelligence-png {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding-top: 6rem;
+    }
+
+    .text3 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .text4 {
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 100;
+        margin-top: 1.1875rem;
+    }
+
+    .iphone-handhold {
+        width: 57%;
+        height: auto;
+        margin: auto;
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .pink-img-bg {
+        background: linear-gradient(180deg, rgb(255, 255, 255), rgb(242, 208, 230));
+    }
+
+    .pink-section-text1 {
+        font-size: 2.4em;
+        font-weight: 600;
+        color: #d464ae;
+        margin-left: 5.625rem;
+        padding-top: 10rem;
+    }
+
+    .pink-section-text2 {
+        font-size: 2.4rem;
+        font-weight: 600;
+        margin-left: 5.625rem;
+        line-height: 3.625rem;
+    }
+
+    .pink-section-para {
+        margin-left: 5.625rem;
+    }
+
+    .pink-apple-img {
+        margin-top: 8rem;
+        width: 100%;
+        height: auto;
+        transform: translateX(-10.75rem);
+    }
+
+    .iphone-text {
+        margin-top: 8.625rem;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 5.625rem;
+    }
+
+    .li-top {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li-middle {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.8rem;
+        font-weight: 600;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .li-bottom {
+        color: rgb(51, 51, 54);
+        margin-top: 1.125rem;
+        list-style: none;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-left: 5.625rem;
+    }
+
+    .li-top2 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li2 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.8rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .section6 {
+        display: flex;
+        margin-bottom: 10.625rem;
+    }
+
+    .li-top3 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li3 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 0.8rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .section7 {
+        font-size: 0.6rem;
+        padding-top: 2.875rem;
+        padding-bottom: 2.875rem;
+        padding-left: 2.625rem;
+        padding-right: 2.625rem;
+        background-color: #f5f4f6;
+    }
+
+    .li-footer {
+        font-weight: 200;
+        list-style: none;
+        line-height: 1.5625rem;
+    }
+
+    .ol-footer {
+        font-weight: 200;
+        line-height: 1.5625rem;
+    }
+
+    .hr1 {
+        margin: 1.875rem 0rem;
+    }
+
+    .apple-logo-footer {
+        fill: black;
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .hr2 {
+        margin: 1.875rem 0rem;
+    }
+
+    .blue-color-text-in-footer {
+        margin-top: 58.125rem;
+        color: #0b6dce;
+        text-decoration: underline;
+        font-size: 0.6rem;
+    }
+
+    .text-before-hr2 {
+        margin-top: 2.8125rem;
+    }
+
+    .text-before-hr2-black {
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+
+    .footer_span {
+        font-size: 0.8rem;
+    }
+
+    .footer-main {
+        font-size: 0.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 300;
+        background-color: #f5f4f6;
+        flex-wrap: wrap;
+    }
+
+    .footer-text-main1,
+    .footer-text-main2 {
+        margin: 0;
+    }
+
+     .section6-2 {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .li-top4,
+    .li-top5 {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+        margin-top: 2rem;
+        background-color: #f2f2f2;
+        border-radius: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.246);
+        font-size: 0.8rem; 
+        text-align: left;
+    }
+
+    .li-middle4,
+    .li-middle5 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1019px) and (max-width:1199px) {
+    .section1 {
+        background-image: linear-gradient(rgb(12, 18, 71), rgb(40, 51, 125) 28%, rgb(80, 93, 173) 46%, rgb(125, 142, 209) 60%, rgb(174, 188, 230) 75%, rgb(239, 236, 255) 90%, rgb(255, 255, 255));
+        width: 100vw;
+        min-height: 100vh;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1.4rem;
+        font-size: 0.8rem;
+    }
+
+    .nav-items {
+        color: white;
+        padding: 1rem 0;
+        text-decoration: none;
+        font-weight: 100;
+    }
+
+    .logo {
+        fill: white;
+        width: 1.4rem;
+        height: 1.4rem;
+        padding: 1rem 1.25rem;
+    }
+
+    .icon {
+        width: 1rem;
+        height: 1rem;
+        padding: 0.5rem 1.25rem;
+    }
+
+    .nav-2 {
+        font-size: 0.8rem;
+        color: white;
+        background-color: #2f397a;
+        text-align: center;
+        font-weight: 300;
+        padding: 0.875rem;
+    }
+
+    .iphone-16 {
+        text-align: center;
+        margin-top: 4.6875rem;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 550;
+    }
+
+    .img1 {
+        width: 62%;
+        height: auto;
+        margin: auto;
+        margin-top: -2.75rem;
+        display: block;
+    }
+
+    .img2 {
+        width: 85%;
+        height: auto;
+        margin: auto;
+        margin-top: -3.6875rem;
+        display: block;
+    }
+
+    .button {
+        background-color: #006fe6;
+        color: white;
+        padding: 0.8rem 1rem;
+        border-radius: 1.875rem;
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-left: 48%;
+        margin-top: 4.0625rem;
+    }
+
+    .text {
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 3.2rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    .highlight-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10rem 5.9375rem 5rem 5.9375rem;
+    }
+
+    .get-the-highlights {
+        font-size: 2.6rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .watch-the-film {
+        font-size: 1rem;
+        color: #0b6dce;
+        display: flex;
+        align-items: center;
+    }
+
+    .handhold1 {
+        margin: auto;
+        height: auto;
+        width: 89%;
+        display: flex;
+        border-radius: 2.1875rem;
+        margin-bottom: 13.5rem;
+    }
+
+    .take-a-look-text {
+        display: block;
+        margin-top: 10rem;
+        font-size: 2.6rem;
+        font-weight: 600;
+        padding: 0rem 0rem 5rem;
+        margin-left: 5.03125rem;
+    }
+
+    .iphones {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .text2 {
+        display: block;
+        font-weight: 400;
+        text-align: center;
+        font-size: 0.8rem;
+        padding-bottom: 13.5rem;
+    }
+
+    .section4 {
+        background-color: #f5f4f6;
+    }
+
+    .apple-intelligence-png {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding-top: 13.5rem;
+    }
+
+    .text3 {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    .text4 {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 100;
+        margin-top: 3.1875rem;
+    }
+
+    .iphone-handhold {
+        width: 57%;
+        height: auto;
+        margin: auto;
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .pink-img-bg {
+        background: linear-gradient(180deg, rgb(255, 255, 255), rgb(242, 208, 230));
+    }
+
+    .pink-section-text1 {
+        font-size: 3.6em;
+        font-weight: 600;
+        color: #d464ae;
+        margin-left: 5.625rem;
+        padding-top: 10rem;
+    }
+
+    .pink-section-text2 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        margin-left: 5.625rem;
+        line-height: 5.625rem;
+    }
+
+    .pink-section-para {
+        margin-left: 5.625rem;
+    }
+
+    .pink-apple-img {
+        margin-top: 10rem;
+        width: 100%;
+        height: auto;
+        transform: translateX(-18.75rem);
+    }
+
+    .iphone-text {
+        margin-top: 10.625rem;
+        font-size: 2.6rem;
+        font-weight: 600;
+        margin-left: 5.625rem;
+    }
+
+    .li-top {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li-middle {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 1rem;
+        font-weight: 600;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .li-bottom {
+        color: rgb(51, 51, 54);
+        margin-top: 1.125rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 5.625rem;
+    }
+
+    .li-top2 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li2 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 1rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .section6 {
+        display: flex;
+        margin-bottom: 10.625rem;
+    }
+
+    .li-top3 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li3 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 1rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .section7 {
+        font-size: 0.6rem;
+        padding-top: 2.875rem;
+        padding-bottom: 2.875rem;
+        padding-left: 6.625rem;
+        padding-right: 6.625rem;
+        background-color: #f5f4f6;
+    }
+
+    .li-footer {
+        font-weight: 200;
+        list-style: none;
+        line-height: 1.5625rem;
+    }
+
+    .ol-footer {
+        font-weight: 200;
+        line-height: 1.5625rem;
+    }
+
+    .hr1 {
+        margin: 1.875rem 0rem;
+    }
+
+    .apple-logo-footer {
+        fill: black;
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .hr2 {
+        margin: 1.875rem 0rem;
+    }
+
+    .blue-color-text-in-footer {
+        margin-top: 58.125rem;
+        color: #0b6dce;
+        text-decoration: underline;
+        font-size: 0.6rem;
+    }
+
+    .text-before-hr2 {
+        margin-top: 2.8125rem;
+    }
+
+    .text-before-hr2-black {
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+
+    .footer_span {
+        font-size: 0.8rem;
+    }
+
+    .footer-main {
+        font-size: 0.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 300;
+        background-color: #f5f4f6;
+        flex-wrap: wrap;
+    }
+
+    .footer-text-main1,
+    .footer-text-main2 {
+        margin: 0;
+    }
+
+     .section6-2 {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .li-top4,
+    .li-top5 {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+        margin-top: 2rem;
+        background-color: #f2f2f2;
+        border-radius: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.246);
+        font-size: 0.8rem; 
+        text-align: left;
+    }
+
+    .li-middle4,
+    .li-middle5 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1199px) and (max-width:1490px) {
+    .section1 {
+        background-image: linear-gradient(rgb(12, 18, 71), rgb(40, 51, 125) 28%, rgb(80, 93, 173) 46%, rgb(125, 142, 209) 60%, rgb(174, 188, 230) 75%, rgb(239, 236, 255) 90%, rgb(255, 255, 255));
+        width: 100vw;
+        min-height: 100vh;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        font-size: 0.8rem;
+    }
+
+    .nav-items {
+        color: white;
+        padding: 1rem 0;
+        text-decoration: none;
+        font-weight: 100;
+    }
+
+    .logo {
+        fill: white;
+        width: 1.4rem;
+        height: 1.4rem;
+        padding: 1rem 1.25rem;
+    }
+
+    .icon {
+        width: 1rem;
+        height: 1rem;
+        padding: 0.5rem 1.25rem;
+    }
+
+    .nav-2 {
+        font-size: 0.8rem;
+        color: white;
+        background-color: #2f397a;
+        text-align: center;
+        font-weight: 300;
+        padding: 0.875rem;
+    }
+
+    .iphone-16 {
+        text-align: center;
+        margin-top: 4.6875rem;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 550;
+    }
+
+    .img1 {
+        width: 62%;
+        height: auto;
+        margin: auto;
+        margin-top: -2.75rem;
+        display: block;
+    }
+
+    .img2 {
+        width: 85%;
+        height: auto;
+        margin: auto;
+        margin-top: -3.6875rem;
+        display: block;
+    }
+
+    .button {
+        background-color: #006fe6;
+        color: white;
+        padding: 0.8rem 1rem;
+        border-radius: 1.875rem;
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-left: 48%;
+        margin-top: 4.0625rem;
+    }
+
+    .text {
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 3.2rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    .highlight-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10rem 5.9375rem 5rem 5.9375rem;
+    }
+
+    .get-the-highlights {
+        font-size: 2.6rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .watch-the-film {
+        font-size: 1rem;
+        color: #0b6dce;
+        display: flex;
+        align-items: center;
+    }
+
+    .handhold1 {
+        margin: auto;
+        height: auto;
+        width: 89%;
+        display: flex;
+        border-radius: 2.1875rem;
+        margin-bottom: 13.5rem;
+    }
+
+    .take-a-look-text {
+        display: block;
+        margin-top: 10rem;
+        font-size: 2.6rem;
+        font-weight: 600;
+        padding: 0rem 0rem 5rem;
+        margin-left: 5.03125rem;
+    }
+
+    .iphones {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .text2 {
+        display: block;
+        font-weight: 400;
+        text-align: center;
+        font-size: 0.8rem;
+        padding-bottom: 13.5rem;
+    }
+
+    .section4 {
+        background-color: #f5f4f6;
+    }
+
+    .apple-intelligence-png {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding-top: 13.5rem;
+    }
+
+    .text3 {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    .text4 {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 100;
+        margin-top: 3.1875rem;
+    }
+
+    .iphone-handhold {
+        width: 57%;
+        height: auto;
+        margin: auto;
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .pink-img-bg {
+        background: linear-gradient(180deg, rgb(255, 255, 255), rgb(242, 208, 230));
+    }
+
+    .pink-section-text1 {
+        font-size: 3.6em;
+        font-weight: 600;
+        color: #d464ae;
+        margin-left: 5.625rem;
+        padding-top: 10rem;
+    }
+
+    .pink-section-text2 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        margin-left: 5.625rem;
+        line-height: 5.625rem;
+    }
+
+    .pink-section-para {
+        margin-left: 5.625rem;
+    }
+
+    .pink-apple-img {
+        margin-top: 10rem;
+        width: 100%;
+        height: auto;
+        transform: translateX(-18.75rem);
+    }
+
+    .iphone-text {
+        margin-top: 10.625rem;
+        font-size: 2.6rem;
+        font-weight: 600;
+        margin-left: 5.625rem;
+    }
+
+    .li-top {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li-middle {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 1rem;
+        font-weight: 600;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .li-bottom {
+        color: rgb(51, 51, 54);
+        margin-top: 1.125rem;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 5.625rem;
+    }
+
+    .li-top2 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li2 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 1rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .section6 {
+        display: flex;
+        margin-bottom: 10.625rem;
+    }
+
+    .li-top3 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li3 {
+        line-height: 2.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 1rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .section7 {
+        font-size: 0.6rem;
+        padding-top: 2.875rem;
+        padding-bottom: 2.875rem;
+        padding-left: 8.625rem;
+        padding-right: 8.625rem;
+        background-color: #f5f4f6;
+    }
+
+    .li-footer {
+        font-weight: 200;
+        list-style: none;
+        line-height: 1.5625rem;
+    }
+
+    .ol-footer {
+        font-weight: 200;
+        line-height: 1.5625rem;
+    }
+
+    .hr1 {
+        margin: 1.875rem 0rem;
+    }
+
+    .apple-logo-footer {
+        fill: black;
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .hr2 {
+        margin: 1.875rem 0rem;
+    }
+
+    .blue-color-text-in-footer {
+        margin-top: 58.125rem;
+        color: #0b6dce;
+        text-decoration: underline;
+        font-size: 0.6rem;
+    }
+
+    .text-before-hr2 {
+        margin-top: 2.8125rem;
+    }
+
+    .text-before-hr2-black {
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+
+    .footer_span {
+        font-size: 0.8rem;
+    }
+
+    .footer-main {
+        font-size: 0.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 300;
+        background-color: #f5f4f6;
+        flex-wrap: wrap;
+    }
+
+    .footer-text-main1,
+    .footer-text-main2 {
+        margin: 0;
+    }
+
+     .section6-2 {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .li-top4,
+    .li-top5 {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+        margin-top: 2rem;
+        background-color: #f2f2f2;
+        border-radius: 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.246);
+        font-size: 0.8rem; 
+        text-align: left;
+    }
+
+    .li-middle4,
+    .li-middle5 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:3000px) {
+
+    .section1 {
+        background-image: linear-gradient(rgb(12, 18, 71), rgb(40, 51, 125) 28%, rgb(80, 93, 173) 46%, rgb(125, 142, 209) 60%, rgb(174, 188, 230) 75%, rgb(239, 236, 255) 90%, rgb(255, 255, 255));
+        width: 100vw;
+        min-height: 100vh;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4rem;
+        font-size: 1rem;
+    }
+
+    .nav-items {
+        color: white;
+        padding: 1rem 1.25rem;
+        text-decoration: none;
+        font-weight: 100;
+    }
+
+    .logo {
+        fill: white;
+        width: 2rem;
+        height: 2rem;
+        padding: 1rem 1.25rem;
+    }
+
+    .icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0.5rem 1.25rem;
+    }
+
+    .nav-2 {
+        font-size: 1.2rem;
+        color: white;
+        background-color: #2f397a;
+        text-align: center;
+        font-weight: 300;
+        padding: 0.875rem;
+    }
+
+    .iphone-16 {
+        text-align: center;
+        margin-top: 4.6875rem;
+        color: white;
+        font-size: 3rem;
+        font-weight: 550;
+    }
+
+    .img1 {
+        width: 62%;
+        height: auto;
+        margin: auto;
+        margin-top: -3.75rem;
+        display: block;
+    }
+
+    .img2 {
+        width: 85%;
+        height: auto;
+        margin: auto;
+        margin-top: -4.6875rem;
+        display: block;
+    }
+
+    .button {
+        background-color: #006fe6;
+        color: white;
+        padding: 1.2rem 1.6rem;
+        border-radius: 1.875rem;
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-left: 48%;
+        margin-top: 4.0625rem;
+    }
+
+    .text {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 3.2rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    .highlight-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10rem 5.9375rem 5rem 5.9375rem;
+    }
+
+    .get-the-highlights {
+        font-size: 6rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .watch-the-film {
+        font-size: 2rem;
+        color: #0b6dce;
+        display: flex;
+        align-items: center;
+    }
+
+    .handhold1 {
+        margin: auto;
+        height: auto;
+        width: 89%;
+        display: flex;
+        border-radius: 2.1875rem;
+        margin-bottom: 13.5rem;
+    }
+
+    .take-a-look-text {
+        display: block;
+        margin-top: 10rem;
+        font-size: 6rem;
+        font-weight: 600;
+        padding: 0rem 0rem 5rem;
+        margin-left: 5.03125rem;
+    }
+
+    .iphones {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .text2 {
+        display: block;
+        font-weight: 400;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-bottom: 13.5rem;
+    }
+
+    .section4 {
+        background-color: #f5f4f6;
+    }
+
+    .apple-intelligence-png {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding-top: 13.5rem;
+    }
+
+    .text3 {
+        text-align: center;
+        font-size: 8rem;
+        font-weight: 600;
+    }
+
+    .text4 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 100;
+        margin-top: 4.1875rem;
+    }
+
+    .iphone-handhold {
+        width: 57%;
+        height: auto;
+        margin: auto;
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .pink-img-bg {
+        background: linear-gradient(180deg, rgb(255, 255, 255), rgb(242, 208, 230));
+    }
+
+    .pink-section-text1 {
+        font-size: 8.6875rem;
+        font-weight: 600;
+        color: #d464ae;
+        margin-left: 15.625rem;
+        padding-top: 10rem;
+    }
+
+    .pink-section-text2 {
+        font-size: 8.6875rem;
+        font-weight: 600;
+        margin-left: 15.625rem;
+        line-height: 10.625rem;
+    }
+
+    .pink-section-para {
+        margin-left: 15.625rem;
+    }
+
+    .pink-apple-img {
+        margin-top: 10rem;
+        width: 100%;
+        height: auto;
+        transform: translateX(-18.75rem);
+    }
+
+    .iphone-text {
+        margin-top: 10.625rem;
+        font-size: 6rem;
+        font-weight: 600;
+        margin-left: 5.625rem;
+    }
+
+    .li-top {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 2.2rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li-middle {
+        line-height: 3.125rem;
+        color: rgb(51, 51, 54);
+        font-size: 2rem;
+        font-weight: 600;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .li-bottom {
+        color: rgb(51, 51, 54);
+        margin-top: 1.125rem;
+        list-style: none;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-left: 5.625rem;
+    }
+
+    .li-top2 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 2.2rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li2 {
+        line-height: 3.4rem;
+        color: rgb(51, 51, 54);
+        font-size: 2rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .section6 {
+        display: flex;
+        margin-bottom: 10.625rem;
+    }
+
+    .li-top3 {
+        color: rgb(110, 110, 115);
+        margin-top: 3.4375rem;
+        list-style: none;
+        font-size: 2.2rem;
+        font-weight: 400;
+        margin-left: 5.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .li3 {
+        line-height: 3.4rem;
+        color: rgb(51, 51, 54);
+        font-size: 2rem;
+        font-weight: 500;
+        list-style: none;
+        margin-left: 5.625rem;
+    }
+
+    .section7 {
+        font-size: 1.2rem;
+        padding-top: 2.875rem;
+        padding-bottom: 2.875rem;
+        padding-left: 15.625rem;
+        padding-right: 15.625rem;
+        background-color: #f5f4f6;
+    }
+
+    .li-footer {
+        font-weight: 200;
+        list-style: none;
+        line-height: 1.5625rem;
+    }
+
+    .ol-footer {
+        font-weight: 200;
+        line-height: 1.5625rem;
+    }
+
+    .hr1 {
+        margin: 1.875rem 0rem;
+    }
+
+    .apple-logo-footer {
+        fill: black;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .li-top4 {
+        margin-top: 1.875rem;
+        list-style: none;
+        font-size: 1.6rem;
+        line-height: 3rem;
+        font-weight: 500;
+    }
+
+    .li-middle4 {
+        list-style: none;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+        font-weight: 300;
+    }
+
+    .li-top5 {
+        padding-left: 7.1875rem;
+        margin-top: 1.875rem;
+        list-style: none;
+        font-size: 1.6rem;
+        line-height: 3rem;
+        font-weight: 500;
+    }
+
+    .li-middle5 {
+        padding-left: 7.1875rem;
+        list-style: none;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+        font-weight: 300;
+    }
+
+    .section6-2 {
+        display: flex;
+    }
+
+    .hr2 {
+        margin: 1.875rem 0rem;
+    }
+
+    .blue-color-text-in-footer {
+        margin-top: 58.125rem;
+        color: #0b6dce;
+        text-decoration: underline;
+    }
+
+    .text-before-hr2 {
+        margin-top: 2.8125rem;
+    }
+
+    .text-before-hr2-black {
+        font-weight: 300;
+    }
+
+    .footer-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 300;
+        background-color: #f5f4f6;
+        flex-wrap: wrap;
+    }
+
+    .footer-text-main1,
+    .footer-text-main2 {
+        margin: 0;
+    }
+}
